@@ -1,3 +1,4 @@
+
 import React from "react";
 
 function About({ image, about }) {
@@ -6,7 +7,6 @@ function About({ image, about }) {
     <aside>
      <img 
         src={image ? image : defaultImage}
-        
         alt="blog logo" 
         style={{ width: "315px", height: "auto" }}
       />
